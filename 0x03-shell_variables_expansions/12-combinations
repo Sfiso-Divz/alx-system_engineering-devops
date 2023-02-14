@@ -1,3 +1,2 @@
 #!/bin/bash
-q
-
+echo {a..z}{a..z} | tr " " "/n" | grep -p "oo"  
